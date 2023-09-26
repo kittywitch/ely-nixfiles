@@ -1,4 +1,4 @@
-# ely-nixfiles
+# ely-nixfiles
 
 Hi! So...
 
