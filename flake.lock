@@ -1,0 +1,152 @@
+{
+  "nodes": {
+    "flake-compat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1673956053,
+        "narHash": "sha256-4gtG9iQuiKITOjNQQeQIpoIB6b16fm+504Ch3sNKLd8=",
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "rev": "35bb57c0c8d8b62bbfd284272c928ceb64ddbde9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "edolstra",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1695644571,
+        "narHash": "sha256-asS9dCCdlt1lPq0DLwkVBbVoEKuEuz+Zi3DG7pR/RxA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "6500b4580c2a1f3d0f980d32d285739d8e156d92",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "onevpl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689974918,
+        "narHash": "sha256-kFW5n3uGTS+7ATKAuVff5fK3LwEKdCQVgGElgypmrG4=",
+        "owner": "oneapi-src",
+        "repo": "oneVPL",
+        "rev": "ca5bbbb057a6e84b103aca807612afb693ad046c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oneapi-src",
+        "repo": "oneVPL",
+        "type": "github"
+      }
+    },
+    "onevpl-intel-gpu": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1695604684,
+        "narHash": "sha256-G4g8twSDAixpMpL2XcKwYNtOS9BEgmwKaHklnphYtsM=",
+        "owner": "oneapi-src",
+        "repo": "oneVPL-intel-gpu",
+        "rev": "e2459e0d521ac88fa2a0cbbec77a29fe7d22ba62",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oneapi-src",
+        "repo": "oneVPL-intel-gpu",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "onevpl": "onevpl",
+        "onevpl-intel-gpu": "onevpl-intel-gpu",
+        "std": "std",
+        "tree": "tree"
+      }
+    },
+    "std": {
+      "locked": {
+        "lastModified": 1685917625,
+        "narHash": "sha256-2manVKofCZrCToVDnDYNvtYUFBYOM5JhdDoNGVY4fq4=",
+        "owner": "chessai",
+        "repo": "nix-std",
+        "rev": "e20af8822b5739434b875643bfc61fe0195ea2fb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chessai",
+        "repo": "nix-std",
+        "type": "github"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "tree": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "std": [
+          "std"
+        ]
+      },
+      "locked": {
+        "lastModified": 1676505934,
+        "narHash": "sha256-jeqZtNLOKXRSDmD1v+b9+v+hwVyH6kcKzZ9f0gcJpdk=",
+        "owner": "kittywitch",
+        "repo": "tree",
+        "rev": "a831f6fd209e3d00c5026303994de28d0031ab3b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kittywitch",
+        "repo": "tree",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
